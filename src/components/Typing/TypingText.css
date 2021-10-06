@@ -1,0 +1,22 @@
+#test_text {
+    font-family: 'Roboto Mono', monospace;
+    overflow-anchor: none;
+    overflow-y: auto;
+    line-height: 1.6;
+    padding-right: 0.5em;
+    white-space: pre-wrap;
+    margin-bottom: 1em;
+}
+
+#test_text  .right {
+    background-color: #a2e897; /* correct character */
+}
+
+#test_text  .wrong {
+    background-color:  #ff6347; /* typo character */
+}
+
+/*.next {
+    background-color: #8a8a8a;
+    color: #f2f2f2;
+}*/

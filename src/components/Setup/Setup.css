@@ -1,0 +1,96 @@
+.setup {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setup .parent {
+    font: 1.1em 'Roboto', sans-serif;
+    width: 100%;
+    max-width: 50em;
+    padding: 1em;
+    margin: 0.6em;
+    box-sizing: border-box;
+    box-shadow: 0 0 0.15em black;
+}
+
+.setup .heading {
+    width: 100%;
+    margin: 0 auto 1.2em;
+    max-width: max-content;
+    text-align: center;
+}
+
+.setup .text_parent {
+    margin: 0 auto 2em;
+    max-width: 30em;
+}
+
+.setup .time_parent {
+    margin: 0 auto 2.5em;
+}
+
+.setup .time_parent, 
+.setup .select_label.first {
+    max-width: 17em;
+}
+
+.setup .select_label {
+    margin: 0 auto 1em;
+    display: block;
+}
+
+.setup select {
+    font: 0.9em 'Roboto Mono', monospace;
+    width: 100%;
+    height: 2em;
+    border: 1px solid black;
+    margin-top: 0.5em;
+    /*display: block;*/
+}
+
+.setup .custom_input {
+    font-size: 1em;
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.setup textarea.custom_input {
+    padding: 0.1em 0.3em;
+    height: 5em;
+    resize: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.setup input.custom_input {
+    height: 2.3em;
+}
+
+.setup .delete_checkbox {
+    width: 12em;
+    max-width: 100%;
+    margin: 0 auto 1em;
+    display: block;
+}
+
+.setup input[type='checkbox'] {
+    margin-right: 1em;
+}
+
+.setup .start_button {
+    font: 1.1em 'Roboto', sans-serif;
+    width: 5em;
+    height: 1.8em;
+    border: 1px solid black;
+    margin: 0 auto;
+    color: white;
+    background: black;
+    display: block;
+}
+
+.setup .start_button:active {
+    color: black;
+    background: white;
+}
