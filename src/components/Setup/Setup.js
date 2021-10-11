@@ -104,7 +104,7 @@ function Setup() {
                                 ))}
                             </optgroup>
 
-                            {saved_texts.custom.length && (
+                            {saved_texts.custom.length > 0 && (
                                 <optgroup label='Your texts'>
                                     {saved_texts.custom.map((v, i) => (
                                         <option
